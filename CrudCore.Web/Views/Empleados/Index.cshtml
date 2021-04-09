@@ -1,10 +1,34 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model IEnumerable<CrudCore.Web.Models.EmpleadosInfo>
 <h1>Index</h1>
 
 <p>
     <a asp-action="Create">Crear nuevo</a>
 </p>
+
+@*For Display Emleados Info*@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Gender)</th>
+            <th>@Html.DisplayNameFor(model => model.Company)</th>
+            <th>@Html.DisplayNameFor(model => model.Department)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => emp.Name)</td>
+            <td>@Html.DisplayFor(modelItem => emp.Gender)</td>
+            <td>@Html.DisplayFor(modelItem => emp.Company)</td>
+            <td>@Html.DisplayFor(modelItem => emp.Department)</td>
+            <td>
+                <a asp-action="Edit" asp-route="@emp.Id">Editar</a>
+                <a asp-action="Details" asp-route="@emp.Id">Detalles</a>
+                <a asp-action="Delete" asp-route="@emp.Id">Borrar</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
