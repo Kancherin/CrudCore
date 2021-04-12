@@ -1,0 +1,24 @@
+﻿@model CrudCore.Web.Models.EmpleadosInfo
+
+@{ 
+    ViewData["Title"] = "Detalles";
+}
+<h2>Detalles</h2>
+<div>
+    <h4>Emnpleado</h4>
+    <hr/>
+    <dl class="dl-horizontal">
+        <dt>@Html.DisplayNameFor(Model => Model.Name)</dt>
+        <dt>@Html.DisplayFor(Model => Model.Name)</dt>
+        <dt>@Html.DisplayNameFor(Model => Model.Gender)</dt>
+        <dt>@Html.DisplayFor(Model => Model.Gender)</dt>
+        <dt>@Html.DisplayNameFor(Model => Model.Company)</dt>
+        <dt>@Html.DisplayFor(Model => Model.Company)</dt>
+        <dt>@Html.DisplayNameFor(Model => Model.Department)</dt>
+        <dt>@Html.DisplayFor(Model => Model.Department)</dt>
+    </dl>
+</div>
+<div class="form-group">
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-info">Editar</a>
+    <a asp-action="Index" class="btn btn-info">Volver</a>
+</div>

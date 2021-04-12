@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<CrudCore.Web.Models.EmpleadosInfo>
-<h1>Index</h1>
+<h2>Index</h2>
 
 <p>
     <a asp-action="Create">Crear nuevo</a>
@@ -24,9 +24,9 @@
             <td>@Html.DisplayFor(modelItem => emp.Company)</td>
             <td>@Html.DisplayFor(modelItem => emp.Department)</td>
             <td>
-                <a asp-action="Edit" asp-route="@emp.Id">Editar</a>
-                <a asp-action="Details" asp-route="@emp.Id">Detalles</a>
-                <a asp-action="Delete" asp-route="@emp.Id">Borrar</a>
+                <a asp-action="Edit" asp-route-id="@emp.Id">Editar</a>
+                <a asp-action="Details" asp-route-id="@emp.Id">Detalles</a>
+                <a asp-action="Delete" asp-route-id="@emp.Id">Borrar</a>
             </td>
         </tr>
         }

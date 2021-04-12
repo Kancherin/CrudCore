@@ -36,3 +36,13 @@ C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\CrudCore.Web.dll
 C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\CrudCore.Web.pdb
 C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\CrudCore.Web.genruntimeconfig.cache
 C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\CrudCore.Web.csproj.CopyComplete
+C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Create.cshtml.g.cs
+C:\Projects\CrudCore\CrudCore.Web\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Projects\CrudCore\CrudCore.Web\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Projects\CrudCore\CrudCore.Web\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Projects\CrudCore\CrudCore.Web\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Projects\CrudCore\CrudCore.Web\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\CrudCore\CrudCore.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Details.cshtml.g.cs
+C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Delete.cshtml.g.cs
+C:\Projects\CrudCore\CrudCore.Web\obj\Debug\netcoreapp3.1\Razor\Views\Empleados\Edit.cshtml.g.cs

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CrudCore.Web.Models
 {
-    public class EmpeladosDAL
+    public class EmpleadosDAL
     {
         string _connectionString = "Data Source=david-pc;Initial Catalog=EmpleadosDB;Integrated Security=True";
 
@@ -14,7 +14,7 @@ namespace CrudCore.Web.Models
         public IEnumerable<EmpleadosInfo> GetEmpleados()
         {
             List<EmpleadosInfo> _empleados = new List<EmpleadosInfo>();
-            using(SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlConnection con = new SqlConnection(_connectionString))
             {
                 SqlCommand cmd = new SqlCommand("sp_GetEmpleados", con);
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
@@ -107,6 +107,5 @@ namespace CrudCore.Web.Models
             }
             return emp;
         }
-
     }
 }
